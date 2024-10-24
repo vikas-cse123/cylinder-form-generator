@@ -1,0 +1,49 @@
+body {
+    font-size: 12px;
+}
+
+thead {
+    line-height: 2;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    min-height: 70vh;
+}
+
+form input {
+    width: 60%;
+    height: 40px;
+    font-size: 21px;
+}
+
+form button {
+    font-size: 20px;
+}
+
+form.hide {
+    display: none;
+}
+
+table {
+width: max-content;
+    display: none;
+}
+thead{
+    white-space: nowrap; 
+}
+
+form.hide + table {
+    display: block;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
